@@ -1,0 +1,28 @@
+{
+  "name": "swipe-action",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "Element showing syncronized data from Firebase",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "firebase"
+  ],
+  "main": "swipe-action.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/swipe-action/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "firebase-element": "GoogleWebComponents/firebase-element#~1.0.7",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "swipe-action-icon": "thomasofdenmark/swipe-action-icon#~0.0.2"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
